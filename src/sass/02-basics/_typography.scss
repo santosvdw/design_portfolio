@@ -6,11 +6,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Open Sans, Helvetica, arial, sans-serif;
 }
 
 h1 {
-    font-size: $h1-size;
+    font-family: Archivo Black, Helvetica, arial, sans-serif;
+    font-size: $step-5;
     font-weight: 800;
 }
 
@@ -41,6 +41,6 @@ body {
 body,
 li,
 a {
-    font-family: inter, arial, sans-serif;
+    font-family: arial, sans-serif;
     font-size: calc($step-0 * 1.1);
 }

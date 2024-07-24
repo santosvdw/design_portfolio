@@ -1,3 +1,39 @@
 @use '01-usables/usables' as *;
 @use '02-basics/basics' as *;
-@use '03-components/components' as *;
+
+.App {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+    height: 100vh;
+    color: #D4AFB9;
+
+    .link {
+margin-top: 20px;
+    }
+
+    a {
+        color:#BA3B46;
+
+        &:hover {
+            color: #9B313A;
+        }
+    }
+
+    .header {
+        position: absolute;
+        display: grid;
+        place-self: center;
+        line-height: $step-5;
+        width: 50vw;
+    }
+
+    .underline {
+        text-decoration: underline;
+        text-decoration-color: #BA3B46;
+        text-decoration-style: solid 5px;
+    }
+}
